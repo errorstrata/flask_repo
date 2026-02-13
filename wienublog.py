@@ -86,3 +86,5 @@ class Blog(Resource):
            return {'message': f'Blog {id} not found'}, 404
         
 api.add_resource(Blog, '/blog' , '/blog/<int:id>')
+
+app = app
